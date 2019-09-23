@@ -24,7 +24,7 @@ Le fonctionnement d’une UI conditionnera toujours les logiques de rendu, de la
 
 Au lieu de séparer artificiellement les *technologies* en mettant le balisage et la logique dans des fichiers séparés, React [sépare les *préoccupations*](https://fr.wikipedia.org/wiki/S%C3%A9paration_des_pr%C3%A9occupations) via des unités faiblement couplées appelées « composants », qui contiennent les deux. Nous reviendrons sur les composants dans une [prochaine section](/docs/components-and-props.html), mais si l'idée d’injecter des balises dans du JS vous met mal à l’aise, [cette présentation](https://www.youtube.com/watch?v=x7cQ3mrcKaY) vous fera peut-être changer d'avis.
 
-React [ne vous oblige pas](/docs/react-without-jsx.html) à utiliser JSX, mais la plupart des gens y trouvent une aide visuelle quand ils manipulent l'interface utilisateur dans le code JavaScript. Ça permet aussi à React de produire des messages d'erreurs et d'avertissements plus utiles.
+React [ne vous oblige](/docs/react-without-jsx.html) à utiliser JSX, mais la plupart des gens y trouvent une aide visuelle quand ils manipulent l'interface utilisateur dans le code JavaScript. Ça permet aussi à React de produire des messages d'erreurs et d'avertissements plus utiles.
 
 Ceci étant posé, commençons !
 
